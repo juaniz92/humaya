@@ -1,0 +1,304 @@
+body {
+  background-color: rgb(19, 19, 19);
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-top: 20px;
+}
+
+.contenedor {
+  margin: 0;
+  padding: 0;
+  max-width: 960px;
+  display: grid;
+  justify-content: center;
+}
+
+.transparente {
+  background-color: transparent;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  text-align: center;
+  align-content: center;
+  padding: 0.5rem;
+}
+
+h4 {
+  color: blanchedalmond;
+  margin: 0;
+  text-align: center;
+  align-content: center;
+  padding: 0.5rem;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.centrar {
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  background-image: url(IMAGENES/Central/imagenCentral.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display:grid;
+}
+
+.card_home {
+  display: flex;
+  align-content: center;
+  justify-content: left;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#card_principal {
+  margin-left: 20px;
+  max-width: 23rem;
+  font-size:x-large;
+}
+
+.card {
+  border: none;
+}
+
+#btn {
+  border-radius: 30px;
+  opacity: 80%;
+  padding: 15px;
+  width: 200px;
+}
+
+.grey {
+  background-color: rgb(95, 95, 95);
+}
+
+h5 {
+  color: rgb(100, 81, 49);
+  text-align: center;
+  align-content: center;
+  margin-bottom: 2rem;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black;
+}
+
+#producto4 {
+  grid-row-start: 2;
+}
+
+#producto3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.contenedor_bt_productos {
+  text-align: center;
+}
+
+.texto_producto_resaltado {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: rgb(100, 81, 49);
+  font-weight: bold;
+}
+
+.btn_productos {
+  color: rgb(100, 81, 49);
+  border: solid 3px;
+  border-radius: 0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 0px 15px;
+}
+
+.btn_productos:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(100, 81, 49);
+}
+
+#productos a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(100, 81, 49);
+}
+
+.detalle_producto {
+  padding: 0rem 1rem;
+  padding-top: 2rem;
+}
+
+.fondobeige {
+  background-color: rgb(197, 179, 157);
+}
+
+.productos img {
+  min-height: 330px;
+}
+
+#destaque img {
+  padding: 20px;
+  max-width: 300px;
+}
+
+#producto_destaque {
+  max-width: 350px;
+}
+
+.texto_producto {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+}
+
+.texto_producto_destaque {
+  padding-left: 2rem;
+  padding-right: 1rem;
+  color: dark;
+}
+
+i {
+  color: rgb(211, 202, 191);
+  font-size: 6rem;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 10px 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+#info p {
+  color: rgb(211, 202, 191);
+  font-size: smaller;
+}
+
+#info div {
+  min-width: 150px;
+}
+
+.recetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 10px;
+  padding: 0px 10px;
+}
+
+#recetas {
+  background-color: rgb(37, 35, 30);
+}
+
+#recetas .card {
+  background-color: rgb(148, 121, 87);
+  border-radius: 0;
+}
+
+#recetas img {
+  border-radius: 0;
+}
+
+#recetas .card-title {
+  color: black;
+}
+
+.contacto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#form2 {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: rgb(100, 81, 49);
+  font-size: 20px;
+}
+.formu {
+  background-color: beige;
+}
+
+input, textarea{
+  background-color: rgb(100, 81, 49) !important
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px 5px;
+  padding: 0px 15px;
+  background-color: black;
+}
+#logo {
+  padding: 20px;
+  width: 150px;
+}
+
+#menu1 {
+  display: grid;
+  place-content: center;
+}
+#mapa {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.vertical {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#footer strong {
+  color: rgb(100, 81, 49);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#footer a {
+  color: blanchedalmond;
+  text-decoration: none;
+  padding-bottom: 1rem;
+}
+
+#footer a:hover {
+  color: rgb(100, 81, 49)
+}
+
+#footer p {
+  color: blanchedalmond;
+}
+
+.icon_tamanio {
+  margin: 0.5rem;
+  font-size: 2rem;
+}
+
+.icon_tamanio:hover {
+  color: rgb(100, 81, 49)
+}
+
+#fin {
+  background-color: rgb(148, 121, 87);
+  color: white;
+  text-align: center;
+}
